@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;  
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.main-container {
+    width: 1000vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.image-box {
+    width: 100vw;
+    height: 100vh;
+}
+
+.image-box > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-box > video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+audio {
+    display: none;
+}
